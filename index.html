@@ -23,7 +23,22 @@
         </nav>
     </header>
     <main>
-        <img src="img/museu.png" alt="museu-imagem" id="primeira-foto">
+
+        <section class="imagens">
+            <img src="img/museu.png" alt="museu-imagem" id="primeira-foto">
+            <img src="img/depoimento.png" alt="depoimento">
+        </section>
+
+        <aside>  <!--  Formulario pika -->
+            <h2>Faça uma visita</h2>
+            <form action="visita.php">
+                <fieldset>
+                    <legend>Selecione uma data</legend>
+                    <label for="idata">Data</label>
+                    <input type="date" name="data" id="idata">
+                </fieldset>
+            </form>
+        </aside>
     </main>
 </body>
 </html>

@@ -50,10 +50,37 @@ main{
     width: 90vw;
     margin: auto;
 }
-main > img{
+main > section > img{
     width: 100%;
 }
 #primeira-foto{
     position: relative;
     top: -15px;
+}
+
+aside{
+    margin-top: 20px;
+}
+
+h2{
+    color: rgb(6, 6, 99);
+    margin: 20px;
+}
+
+form{
+    background-color: lightgray;
+    height: 80px;
+    border-radius: 5px;
+}
+fieldset{
+    height: 95%;
+    width: 97%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+input[type=date]{
+    border-radius: 5px;
+    border: none;
+    height: 20px;
 }
