@@ -13,7 +13,7 @@ body,html{
 }
 
 header{
-    height: 350px;
+    height: 320px;
     width: 100%;
 
     background-color: #522e0e;
@@ -128,7 +128,11 @@ section#conteudo{
 
 }
 article#video > iframe{
-    width: 420px;
+    width: 370px;
+}
+
+article#mapa > iframe{
+    width: 370px;
 }
 article#textos > h3{
     margin-top: 60px;
@@ -142,4 +146,36 @@ article#textos > ul{
 }
 article#textos > p {
     margin: auto;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+}
+
+hr{
+    width: 80vw;
+    margin: auto;
+}
+
+footer > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+
+    margin-top: 20px;
+}
+
+footer ul > li{
+    margin: 10px 0px;
+}
+
+footer > p{
+    text-align: center;
+    margin-top: 50px;
+}
+footer > p > span{
+    color: #dd8b10
 }
