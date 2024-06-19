@@ -32,13 +32,54 @@
         <aside>  <!--  Formulario pika -->
             <h2>Faça uma visita</h2>
             <form action="visita.php">
-                <fieldset>
-                    <legend>Selecione uma data</legend>
-                    <label for="idata">Data</label>
-                    <input type="date" name="data" id="idata">
-                </fieldset>
+                <label for="idata">Data</label>
+                <input type="date" name="data" id="idata" required>
+                <br>
+                <label for="ivaga">Quantidade de pessoas</label>
+                <input type="number" name="vaga" id="ivaga" required style="width: 40px;">
+                <input type="submit" value="Verificar disponibilidade" >
             </form>
+
+            <section id="galeria">
+                <h2>Galeria de fotos</h2>
+
+                <div class="imagens-galeria">
+                    <img src="img/imagem1.jpg" alt="">
+                    <img src="img/imagem2.jpg" alt="">
+                    <img src="img/imagem3.jpg" alt="">
+                    <img src="img/imagem4.jpg" alt="">
+                </div>
+            </section>
         </aside>
+
+        <section id="conteudo">
+            <article id="video">
+                    <h2>Conheça o museu </h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc?si=XW18WBNFLrCkf8lK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+            <article id="mapa">
+                    <h2>Encontre o museu</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.825245036422!2d-43.2265289!3d-22.90576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1718719555393!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article id="textos">
+
+                <h3>Exposições</h3>
+                <ul>
+                    <li><a href="">Os assustadores insetos</a></li>
+                    <li><a href="">O crânio da Luzia, a mulher mais antiga do Brasil</a></li>
+                    <li><a href=""> Preguiça gigante e tigre dentes-de-sabre</a></li>
+                    <li><a href="">Teresa Cristina: A imperatriz arqueologa</a></li>
+                    <li><a href="">Arte com Dinossauros</a></li>
+                    <li><a href=""> <strong>Veja todos &#40;60&#41;</strong> </a></li>
+                </ul>
+
+
+                <h3>200 Anos de historia</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Perspiciatis nulla veniam ex facere, aliquid consectetur exercitationem debitis obcaecati modi tempora. <br>Tempore sunt, dolores est doloremque soluta ullam sint maiores molestiae.
+                </p>
+            </article>
+        </section>
     </main>
 </body>
 </html>

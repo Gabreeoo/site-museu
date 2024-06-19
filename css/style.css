@@ -49,38 +49,97 @@ li > a:hover{
 main{
     width: 90vw;
     margin: auto;
+    padding-top: 20px;
 }
 main > section > img{
     width: 100%;
 }
-#primeira-foto{
-    position: relative;
-    top: -15px;
-}
+
 
 aside{
     margin-top: 20px;
+    background-color: #e4d4be;
 }
+
+/* Formulario  */
 
 h2{
-    color: rgb(6, 6, 99);
+    color: #3d220b;
     margin: 20px;
+    padding-top: 10px;
 }
-
 form{
-    background-color: lightgray;
-    height: 80px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-fieldset{
-    height: 95%;
-    width: 97%;
-    margin: auto;
-    border-radius: 5px;
+label{
+    margin-left: 10px;
 }
-
-input[type=date]{
+input{
     border-radius: 5px;
     border: none;
     height: 20px;
+    width: 300px;
+    margin-left: 10px;
+}
+input[type=submit]{
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #522e0e;
+    color: white;
+    font-size: 20px;
+    border-radius: 0px;
+    cursor: pointer;
+
+}
+
+/* GALERIA */
+
+section#galeria{
+    background-color: #cfc1ad;
+
+}
+
+section#galeria > a{
+    background: url(../img/fundo-foto.png) no-repeat;
+    width: 400px;
+}
+
+.imagens-galeria{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+section#galeria > div.imagens-galeria > img{
+    width:120px;
+    margin: 20px;
+
+}
+
+/* Conteudo */
+
+section#conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+article#video > iframe{
+    width: 420px;
+}
+article#textos > h3{
+    margin-top: 60px;
+    color: rgb(26, 30, 71);
+    display: flex;
+
+}
+
+article#textos > ul{
+    padding-left: 20px;
+}
+article#textos > p {
+    margin: auto;
 }
