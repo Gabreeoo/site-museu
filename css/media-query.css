@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* TABLETS */
+    
+    header{
+        height: auto;
+    }
+    header > nav > ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    header > nav > ul > li{
+        background-color: rgba(255, 255, 255, 0)
+    }
+    main{
+        width: 80vw;
+    }
+
+    section.imagens{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    section.imagens > img{
+        width: 60%;
+
+    }
+    section.imagens img:nth-child(even){
+        width: 212px;
+
+    }
+
+    aside{
+        margin: auto;
+        width: 100%;
+    }
+
+    section#conteudo > article > iframe{
+        width: 330px;
+        height: 300px;
+
+    }
+
+    article#textos{
+        margin-top: 50px;
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+    article#textos > div.exposicoes{
+        width: 800px;
+        margin-left: 30px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header{
+        height: 80px;
+    }
+    header h1{
+        text-align: left;
+        margin-left: 60px;
+        position: relative;
+        top: -5px;
+    }
+
+    header > nav > ul{
+        display: inline;
+        float: right;
+        position: relative;
+        top: -65px;
+        right: 40px
+    }
+
+    header > nav > ul > li{
+        background-color: rgba(255, 255, 255, 0);
+        display: inline;
+    }
+    
+    main{
+        width: 90vw;
+    }
+
+    section.imagens{
+        width: 100%;
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+        
+    }
+
+    section.imagens > img{ 
+        width: 60%;
+    }
+
+    section.imagens > img:nth-child(even){
+        width: 400px;
+    }
+    aside{
+        margin-top: 80px;
+        width: 400px;
+        float: right;
+    }
+
+    section#conteudo > article > iframe{
+        width: 350px;
+        height: 400px;
+    }
+
+    article#textos{
+        margin-top: 50px;
+        width: 600px;
+        display: flex;
+    }
+    article#textos > div.exposicoes{
+        margin-right: 200px;
+        width: 700px;
+    }
+}
